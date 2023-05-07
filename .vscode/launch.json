@@ -19,6 +19,7 @@
             "request": "launch",
             "skipFiles": [
                 "<node_internals>/**"
+                "${workspaceFolder}/node_modules/**"
             ],
             "type": "node"
         },
@@ -28,6 +29,7 @@
             "name": "Launch Program",
             "skipFiles": [
                 "<node_internals>/**"
+                "${workspaceFolder}/node_modules/**"
             ],
             "program": "${workspaceFolder}/scoring.js"
         }
